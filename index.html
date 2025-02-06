@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Neptune</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar_upper">
+                <div class="sidebar_logo">
+                    <img src="assets/Neptune_logo.svg" alt="Neptune Logo" />
+                </div>
+                <div class="sidebar_user">
+                    <div class="left">
+                        <img src="assets/userinfo_logo.svg" alt="A Logo" />
+                        <div class="user_details">
+                            <h3>Jessica Thompson</h3>
+                            <p>Primary User</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="assets/downarrow.svg" alt="A Dropdown Arrow Image" />
+                    </div>
+                </div>
+                <nav class="sidebar_menu">
+                    <div class="sidebar_menu_item">
+                        <img src="assets/home.svg" alt="Home" />
+                        <h4>Home</h4>
+                    </div>
+                    <div class="sidebar_menu_item sidebar_menu_item_active">
+                        <img src="assets/document.svg" alt="Document" />
+                        <h4>Documents</h4>
+                    </div>
+                    <div class="sidebar_menu_item">
+                        <img src="assets/chat.svg" alt="Chat" />
+                        <h4>Chat with Neptune</h4>
+                    </div>
+                    <div class="sidebar_menu_item">
+                        <img src="assets/help.svg" alt="Help" />
+                        <h4>Help</h4>
+                    </div>
+                    <div class="sidebar_menu_item">
+                        <img src="assets/settings.svg" alt="Settings" />
+                        <h4>Settings</h4>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="sidebar_lower">
+                <div class="sidebar_help_logo">
+                    <img src="assets/call.svg" alt="Call" />
+                </div>
+                <div class="sidebar_help_info">
+                    <h3>Having trouble?</h3>
+                    <p>Feel free to contact us and we will always help you through the process.</p>
+                </div>
+
+                <button type="button">Contact us</button>
+
+            </div>
+        </aside>
+
+        <main class="documents">
+            <div class="documents_nav_info">
+                <h5>Home</h5>
+                <img src="assets/rightarrow.svg" alt="Right Arrow" />
+                <h6>Documents</h6>
+            </div>
+
+            <div class="documents_main_header">
+                <h2>My Documents</h2>
+
+                <div class="documents_search_box">
+                    <input type="text" placeholder="Search Documents" />
+                    <img src="assets/search.svg" alt="Search" />
+                </div>
+            </div>
+            <table class="documents_table">
+                <thead>
+                    <th>
+                        <input type="checkbox" />
+                        <img src="assets/downarrow.svg" alt="A Downarrow"  />
+                    </th>
+                    <th> Document Name </th>
+                    <th> Status </th>
+                    <th> Last Modified </th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="document_select_box"><input type="checkbox" /></td>
+                        <td class="documents_title">Title of Document Goes Here</td>
+                        <td class="documents_status">
+                            <div class="document_status_needs_signing">
+                                <p>Needs Signing</p>
+                            </div>
+                        </td>
+                        <td class="document_last_modified">
+                            <div class="document_modified_date_time">
+                                <time datetime="">10/22/2024<br> 2:01 pm</time>
+                            </div> 
+
+                            <div class="document_last_modified_btn">
+                                <button type="button">Sign Now</button>
+                                <img src="assets/options.svg" alt="Options" />
+                            </div>
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="document_select_box"><input type="checkbox" /></td>
+                        <td class="documents_title">Title of Document Goes Here</td>
+                        <td class="documents_status">
+                            <div class="document_status_pending">
+                                <p>Pending</p>
+                            </div>
+
+                            <div class="document_status_pending_info">
+                                <p><i>Waiting for <span>1 person</span></i></p>
+                            </div>
+                        </td>
+                        <td class="document_last_modified">
+                            <div class="document_modified_date_time">
+                                <time datetime="">10/22/2024<br> 2:01 pm</time>
+                            </div> 
+
+                            <div class="document_last_modified_btn">
+                                <button type="button">Preview</button>
+                                <img src="assets/options.svg" alt="Options" />
+                            </div>
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="document_select_box"><input type="checkbox" /></td>
+                        <td class="documents_title">Title of Document Goes Here</td>
+                        <td class="documents_status">
+                            <div class="document_status_pending">
+                                <p>Pending</p>
+                            </div>
+                            <div class="document_status_pending_info">
+                                <p><i>Waiting for <span>2 person</span></i></p>
+                            </div>
+                        </td>
+                        <td class="document_last_modified">
+                            <div class="document_modified_date_time">
+                                <time datetime="">10/22/2024<br> 2:01 pm</time>
+                            </div> 
+
+                            <div class="document_last_modified_btn">
+                                <button type="button">Preview</button>
+                                <img src="assets/options.svg" alt="Options" />
+                            </div>
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="document_select_box"><input type="checkbox" /></td>
+                        <td class="documents_title">Title of Document Goes Here</td>
+                        <td class="documents_status">
+                            <div class="document_status_completed">
+                                <p>Completed</p>
+                            </div>
+                        </td>
+                        <td class="document_last_modified">
+                            <div class="document_modified_date_time">
+                                <time datetime="">10/22/2024<br> 2:01 pm</time>
+                            </div> 
+
+                            <div class="document_last_modified_btn">
+                                <button type="button">Download PDF</button>
+                                <img src="assets/options.svg" alt="Options" />
+                            </div>
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="document_select_box"><input type="checkbox" /></td>
+                        <td class="documents_title">Title of Document Goes Here</td>
+                        <td class="documents_status">
+                            <div class="document_status_completed">
+                                <p>Completed</p>
+                            </div>
+                        </td>
+                        <td class="document_last_modified">
+                            <div class="document_modified_date_time">
+                                <time datetime="">10/22/2024<br> 2:01 pm</time>
+                            </div> 
+
+                            <div class="document_last_modified_btn">
+                                <button type="button">Download PDF</button>
+                                <img src="assets/options.svg" alt="Options" />
+                            </div>
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="document_select_box"><input type="checkbox" /></td>
+                        <td class="documents_title">Title of Document Goes Here</td>
+                        <td class="documents_status">
+                            <div class="document_status_completed">
+                                <p>Completed</p>
+                            </div>
+                        </td>
+                        <td class="document_last_modified">
+                            <div class="document_modified_date_time">
+                                <time datetime="">10/22/2024<br> 2:01 pm</time>
+                            </div> 
+
+                            <div class="document_last_modified_btn">
+                                <button type="button">Download PDF</button>
+                                <img src="assets/options.svg" alt="Options" />
+                            </div>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>    
+</body>
+</html>
